@@ -19,7 +19,7 @@
     <etapas>
         <etapa>
             <titulo>Consulta</titulo>
-            <descricao><![CDATA[No site de serviços do CAU, clicar em "Buscar Profissional/Empresa". Para profissionais, deverá ser informado o nome, CPF ou número de registro no CAU. Para empresas, deverá informar o nome, CNPJ ou número de registro no CAU. Caso o profissional ou empresa possua registro, o sistema informará.]]></descricao>
+            <descricao><![CDATA[No site de serviços do CAU, clicar em "Buscar Profissional/Empresa". A busca pode ser feita por nome ou CPF/CNPJ, ou número de registro no CAU. Caso o profissional ou empresa possua registro, o sistema informará.]]></descricao>
             <documentos>
                 <default/>
             </documentos>
