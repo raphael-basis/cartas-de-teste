@@ -4,6 +4,7 @@
     <sigla/>
     <nomes-populares/>
     <descricao><![CDATA[Consulta ao banco de dados do CAU para confirmar se determinado profissional ou empresa de arquitetura e urbanismo possuem registro no Conselho.]]></descricao>
+     <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
     <gratuito>true</gratuito>
     <solicitantes>
         <solicitante>
@@ -35,7 +36,6 @@
         </etapa>
     </etapas>
     <orgao id=""/>
-    <contato><![CDATA[De segunda a sexta de 9h às 19h pelo telefone 0800 883 0113 e pelo 4007 2613.]]></contato>
     <segmentos-da-sociedade>
         <item>Cidadãos</item>
         <item>Empresas</item>
