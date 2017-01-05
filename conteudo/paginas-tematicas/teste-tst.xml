@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica>
+    <conteudo># TESTE TST-01</conteudo>
+    <dbId>43</dbId>
+    <nome>TESTE TST</nome>
+    <orgaos>
+        <orgao id="1988"/>
+    </orgaos>
+</pagina-tematica>
