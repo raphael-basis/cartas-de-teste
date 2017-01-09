@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <pagina-tematica>
-    <conteudo># TST-0901
-
-TESTE</conteudo>
+    <conteudo>TESTE</conteudo>
     <dbId>46</dbId>
     <nome>TST-0901</nome>
     <orgaos>
