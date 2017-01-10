@@ -9,7 +9,7 @@
     </nomes-populares>
     <descricao>Esse serviço é um teste!</descricao>
     <contato>contato@contato.com</contato>
-    <gratuito>false</gratuito>
+    <gratuito>true</gratuito>
     <solicitantes>
         <solicitante id="155">
             <tipo>Solicitante um</tipo>
@@ -32,13 +32,7 @@
                 </default>
             </documentos>
             <custos>
-                <default>
-                    <custo id="28">
-                        <descricao>Custo simbólico</descricao>
-                        <moeda></moeda>
-                        <valor>35,000</valor>
-                    </custo>
-                </default>
+                <default/>
             </custos>
             <canais-de-prestacao>
                 <default>
