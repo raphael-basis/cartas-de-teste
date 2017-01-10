@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica>
+    <conteudo>CONTEUDO DA PAGINA TEMATICA</conteudo>
+    <dbId>47</dbId>
+    <nome>ESSA É UMA PAGINA TEMATICA</nome>
+    <orgaos>
+        <orgao id="1929"/>
+        <orgao id="244"/>
+        <orgao id="41066"/>
+    </orgaos>
+</pagina-tematica>
