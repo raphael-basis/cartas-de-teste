@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>atendimento-imediato</id>
+    <dbId>96</dbId>
+    <nome>ATENDIMENTO IMEDIATO</nome>
+    <sigla>ATENDIMENTO</sigla>
+    <nomes-populares>
+        <item id="114">ATENDIMENTO IMEDIATO</item>
+    </nomes-populares>
+    <descricao>ATENDIMENTO IMEDIATO</descricao>
+    <contato>ATENDIMENTO IMEDIATO</contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante id="156">
+            <tipo>ATENDIMENTO IMEDIATO</tipo>
+            <requisitos>ATENDIMENTO IMEDIATO</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao>ATENDIMENTO IMEDIATOATENDIMENTO IMEDIATO</descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa id="179">
+            <titulo>ATENDIMENTO IMEDIATO</titulo>
+            <descricao>ATENDIMENTO IMEDIATO</descricao>
+            <documentos>
+                <default>
+                    <item id="424">ATENDIMENTO IMEDIATO</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="210" tipo="e-mail">
+                        <descricao>ATENDIMENTO IMEDIATO</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="1929"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="153">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="307">ATENDIMENTO IMEDIATO</item>
+        <item id="308">ATENDIMENTO IMEDIATO</item>
+        <item id="309">ATENDIMENTO IMEDIATO</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="134">ATENDIMENTO IMEDIATO</item>
+    </legislacoes>
+</servico>
