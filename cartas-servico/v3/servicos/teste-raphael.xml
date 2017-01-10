@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-raphael</id>
+    <dbId>95</dbId>
+    <nome>Teste Raphael</nome>
+    <sigla>SG</sigla>
+    <nomes-populares>
+        <item id="113">raphael</item>
+    </nomes-populares>
+    <descricao>Esse serviço é um teste!</descricao>
+    <contato>contato@contato.com</contato>
+    <gratuito>false</gratuito>
+    <solicitantes>
+        <solicitante id="155">
+            <tipo>Solicitante um</tipo>
+            <requisitos>nada</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao>ordem de chegada</descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa id="178">
+            <titulo>ETP #1</titulo>
+            <descricao>Essa etapa é de teste!</descricao>
+            <documentos>
+                <default>
+                    <item id="421">RG</item>
+                    <item id="422">CPF</item>
+                    <item id="423">CNH</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="28">
+                        <descricao>Custo simbólico</descricao>
+                        <moeda></moeda>
+                        <valor>35,000</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="209" tipo="presencial">
+                        <descricao>Presencial</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="207309"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="151">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="152">Empresas</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+        <item>Agropecuária</item>
+        <item>Água</item>
+        <item>Administração</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="304">P1</item>
+        <item id="305">P2</item>
+        <item id="306">P3</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="133">Legislação qualquer</item>
+    </legislacoes>
+</servico>
