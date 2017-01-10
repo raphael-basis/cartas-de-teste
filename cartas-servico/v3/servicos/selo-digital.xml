@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>selo-digital</id>
+    <dbId>98</dbId>
+    <nome>SELO DIGITAL</nome>
+    <sigla>SELO DIGITAL</sigla>
+    <nomes-populares>
+        <item id="116">SELO DIGITAL</item>
+    </nomes-populares>
+    <descricao>SELO DIGITAL</descricao>
+    <contato>SELO DIGITAL</contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante id="158">
+            <tipo>SELO DIGITAL</tipo>
+            <requisitos>SELO DIGITAL</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <entre min="29" max="2" unidade="dias-uteis"/>
+        <descricao>SELO DIGITAL</descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa id="181">
+            <titulo>SELO DIGITAL</titulo>
+            <descricao>SELO DIGITAL</descricao>
+            <documentos>
+                <default>
+                    <item id="426">SELO DIGITAL</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="214" tipo="fax">
+                        <descricao></descricao>
+                    </canal-de-prestacao>
+                    <canal-de-prestacao id="213" tipo="telefone">
+                        <descricao></descricao>
+                    </canal-de-prestacao>
+                </default>
+                <caso id="84" descricao="WEB">
+                    <canal-de-prestacao id="212" tipo="web">
+                        <descricao></descricao>
+                    </canal-de-prestacao>
+                </caso>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="182">
+            <titulo>SELO DIGITAL 2</titulo>
+            <descricao>SELO DIGITAL 2</descricao>
+            <documentos>
+                <default>
+                    <item id="427">SELO DIGITAL</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="215" tipo="presencial">
+                        <descricao>SELO DIGITAL</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="244"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="155">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="313">SELO DIGITAL</item>
+        <item id="314">SELO DIGITAL</item>
+        <item id="315">SELO DIGITAL</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="136">SELO DIGITAL</item>
+    </legislacoes>
+</servico>
