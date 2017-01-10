@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>em-media</id>
+    <dbId>97</dbId>
+    <nome>EM MEDIA</nome>
+    <sigla>EM MEDIA</sigla>
+    <nomes-populares>
+        <item id="115">EM MEDIA</item>
+    </nomes-populares>
+    <descricao>EM MEDIA</descricao>
+    <contato>EM MEDIA</contato>
+    <gratuito>false</gratuito>
+    <solicitantes>
+        <solicitante id="157">
+            <tipo>EM MEDIA</tipo>
+            <requisitos>EM MEDIA</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="9000" unidade="meses"/>
+        <descricao>EM MEDIA</descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa id="180">
+            <titulo>EM MEDIA</titulo>
+            <descricao>EM MEDIA</descricao>
+            <documentos>
+                <default>
+                    <item id="425">EM MEDIA</item>
+                </default>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="29">
+                        <descricao>EM MEDIA</descricao>
+                        <moeda></moeda>
+                        <valor>3</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="211" tipo="sms">
+                        <descricao>EM MEDIA</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="244"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="154">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="310">EM MEDIA</item>
+        <item id="311">EM MEDIA</item>
+        <item id="312">EM MEDIA</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="135">EM MEDIA</item>
+    </legislacoes>
+</servico>
