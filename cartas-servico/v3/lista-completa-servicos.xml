@@ -492,14 +492,14 @@ classificacaoindicativa@mj.gov.br</contato>
                         <item id="237">Ficha Técnica de Audiovisual</item>
                     </caso>
                     <caso id="46" descricao="Televisão Aberta">
-                        <item id="241">Ficha Técnica de Audiovisual</item>
-                        <item id="242">Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</item>
                         <item id="243">http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</item>
+                        <item id="242">Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</item>
+                        <item id="241">Ficha Técnica de Audiovisual</item>
                     </caso>
                     <caso id="47" descricao="Serviço de Acesso Condicionado (TV por assinatura) (dispensável)">
-                        <item id="244">Ficha Técnica de Audiovisual</item>
-                        <item id="245">Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</item>
                         <item id="246">http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</item>
+                        <item id="245">Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</item>
+                        <item id="244">Ficha Técnica de Audiovisual</item>
                     </caso>
                     <caso id="48" descricao="Jogos e aplicativos de distribuição em mídia física (DVD, Blu-ray, cartuchos, etc)">
                         <item id="250">http://www.justica.gov.br/seus-direitos/classificacao/procedimento/jogos-e-rpg</item>
@@ -1193,64 +1193,6 @@ ser impresso ou armazenado como documento eletrônico.</descricao>
         </legislacoes>
     </servico>
     <servico>
-        <id>teste2</id>
-        <dbId>15</dbId>
-        <nome>TeSte2</nome>
-        <sigla>TST2</sigla>
-        <descricao>Descrição</descricao>
-        <gratuito>false</gratuito>
-        <solicitantes>
-            <solicitante id="97">
-                <tipo>Solicitante Teste</tipo>
-                <requisitos></requisitos>
-            </solicitante>
-        </solicitantes>
-        <tempo-total-estimado>
-            <ate max="6" unidade="meses"/>
-            <descricao></descricao>
-        </tempo-total-estimado>
-        <etapas>
-            <etapa id="110">
-                <titulo>ETAPA 1</titulo>
-                <descricao></descricao>
-                <documentos>
-                    <default/>
-                </documentos>
-                <custos>
-                    <default>
-                        <custo id="14">
-                            <descricao>Custo</descricao>
-                            <moeda></moeda>
-                            <valor>10</valor>
-                        </custo>
-                    </default>
-                </custos>
-                <canais-de-prestacao>
-                    <default>
-                        <canal-de-prestacao id="134" tipo="fax">
-                            <descricao>51 910 234 34</descricao>
-                        </canal-de-prestacao>
-                    </default>
-                </canais-de-prestacao>
-            </etapa>
-        </etapas>
-        <orgao id="80675"/>
-        <segmentos-da-sociedade>
-            <item idSegmento="1" idServicoSegmento="98">Cidadãos</item>
-        </segmentos-da-sociedade>
-        <areas-de-interesse>
-            <item>Abastecimento</item>
-        </areas-de-interesse>
-        <palavras-chave>
-            <item id="195">Palavra 1</item>
-            <item id="196">Palavra 2</item>
-            <item id="197">Palavra 3</item>
-        </palavras-chave>
-        <legislacoes>
-            <item id="90">Le</item>
-        </legislacoes>
-    </servico>
-    <servico>
         <id>alistar-no-servico-militar-obrigatorio</id>
         <dbId>16</dbId>
         <nome>Alistar no Serviço Militar Obrigatório</nome>
@@ -1451,6 +1393,69 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
         </palavras-chave>
         <legislacoes>
             <item id="101">Legislação</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>teste2</id>
+        <dbId>15</dbId>
+        <nome>TeSte2</nome>
+        <sigla>TST2</sigla>
+        <nomes-populares>
+            <item id="111">nome1</item>
+            <item id="112">nome2</item>
+        </nomes-populares>
+        <descricao>Descrição</descricao>
+        <contato></contato>
+        <gratuito>false</gratuito>
+        <solicitantes>
+            <solicitante id="97">
+                <tipo>Solicitante Teste</tipo>
+                <requisitos></requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <em-media max="6" unidade="meses"/>
+            <descricao>servico com tempo estimado em média</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="110">
+                <titulo>ETAPA 1</titulo>
+                <descricao></descricao>
+                <documentos>
+                    <default/>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="14">
+                            <descricao>Custo</descricao>
+                            <moeda></moeda>
+                            <valor>10</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="134" tipo="fax">
+                            <descricao>51 910 234 34</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="80675"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="98">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="195">Palavra 1</item>
+            <item id="196">Palavra 2</item>
+            <item id="197">Palavra 3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="90">Le</item>
         </legislacoes>
     </servico>
     <servico>
@@ -2098,7 +2103,7 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
             </solicitante>
         </solicitantes>
         <tempo-total-estimado>
-            <entre min="1" max="1" unidade="horas"/>
+            <atendimento-imediato/>
             <descricao>teste</descricao>
         </tempo-total-estimado>
         <etapas>
@@ -2143,6 +2148,277 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
         </palavras-chave>
         <legislacoes>
             <item id="129">teste</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>teste-raphael</id>
+        <dbId>95</dbId>
+        <nome>Teste Raphael</nome>
+        <sigla>SG</sigla>
+        <nomes-populares>
+            <item id="113">raphael</item>
+        </nomes-populares>
+        <descricao>Esse serviço é um teste!</descricao>
+        <contato>contato@contato.com</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="155">
+                <tipo>Solicitante um</tipo>
+                <requisitos>nada</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao>ordem de chegada</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="178">
+                <titulo>ETP #1</titulo>
+                <descricao>Essa etapa é de teste!</descricao>
+                <documentos>
+                    <default>
+                        <item id="421">RG</item>
+                        <item id="422">CPF</item>
+                        <item id="423">CNH</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="209" tipo="presencial">
+                            <descricao>Presencial</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="207309"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="151">Cidadãos</item>
+            <item idSegmento="3" idServicoSegmento="152">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+            <item>Administração</item>
+            <item>Agropecuária</item>
+            <item>Água</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="304">P1</item>
+            <item id="305">P2</item>
+            <item id="306">P3</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="133">Legislação qualquer</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>atendimento-imediato</id>
+        <dbId>96</dbId>
+        <nome>ATENDIMENTO IMEDIATO</nome>
+        <sigla>ATENDIMENTO</sigla>
+        <nomes-populares>
+            <item id="114">ATENDIMENTO IMEDIATO</item>
+        </nomes-populares>
+        <descricao>ATENDIMENTO IMEDIATO</descricao>
+        <contato>ATENDIMENTO IMEDIATO</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="156">
+                <tipo>ATENDIMENTO IMEDIATO</tipo>
+                <requisitos>ATENDIMENTO IMEDIATO</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <atendimento-imediato/>
+            <descricao>ATENDIMENTO IMEDIATOATENDIMENTO IMEDIATO</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="179">
+                <titulo>ATENDIMENTO IMEDIATO</titulo>
+                <descricao>ATENDIMENTO IMEDIATO</descricao>
+                <documentos>
+                    <default>
+                        <item id="424">ATENDIMENTO IMEDIATO</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="210" tipo="e-mail">
+                            <descricao>ATENDIMENTO IMEDIATO</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="1929"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="3" idServicoSegmento="153">Empresas</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="307">ATENDIMENTO IMEDIATO</item>
+            <item id="308">ATENDIMENTO IMEDIATO</item>
+            <item id="309">ATENDIMENTO IMEDIATO</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="134">ATENDIMENTO IMEDIATO</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>em-media</id>
+        <dbId>97</dbId>
+        <nome>EM MEDIA</nome>
+        <sigla>EM MEDIA</sigla>
+        <nomes-populares>
+            <item id="115">EM MEDIA</item>
+        </nomes-populares>
+        <descricao>EM MEDIA</descricao>
+        <contato>EM MEDIA</contato>
+        <gratuito>false</gratuito>
+        <solicitantes>
+            <solicitante id="157">
+                <tipo>EM MEDIA</tipo>
+                <requisitos>EM MEDIA</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <em-media max="9000" unidade="meses"/>
+            <descricao>EM MEDIA</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="180">
+                <titulo>EM MEDIA</titulo>
+                <descricao>EM MEDIA</descricao>
+                <documentos>
+                    <default>
+                        <item id="425">EM MEDIA</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default>
+                        <custo id="29">
+                            <descricao>EM MEDIA</descricao>
+                            <moeda></moeda>
+                            <valor>3</valor>
+                        </custo>
+                    </default>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="211" tipo="sms">
+                            <descricao>EM MEDIA</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="244"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="154">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="310">EM MEDIA</item>
+            <item id="311">EM MEDIA</item>
+            <item id="312">EM MEDIA</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="135">EM MEDIA</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>selo-digital</id>
+        <dbId>98</dbId>
+        <nome>SELO DIGITAL</nome>
+        <sigla>SELO DIGITAL</sigla>
+        <nomes-populares>
+            <item id="116">SELO DIGITAL</item>
+        </nomes-populares>
+        <descricao>SELO DIGITAL</descricao>
+        <contato>SELO DIGITAL</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="158">
+                <tipo>SELO DIGITAL</tipo>
+                <requisitos>SELO DIGITAL</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <entre min="29" max="2" unidade="dias-uteis"/>
+            <descricao>SELO DIGITAL</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="181">
+                <titulo>SELO DIGITAL</titulo>
+                <descricao>SELO DIGITAL</descricao>
+                <documentos>
+                    <default>
+                        <item id="426">SELO DIGITAL</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="214" tipo="fax">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="213" tipo="telefone">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="84" descricao="WEB">
+                        <canal-de-prestacao id="212" tipo="web">
+                            <descricao></descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="182">
+                <titulo>SELO DIGITAL 2</titulo>
+                <descricao>SELO DIGITAL 2</descricao>
+                <documentos>
+                    <default>
+                        <item id="427">SELO DIGITAL</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="215" tipo="presencial">
+                            <descricao>SELO DIGITAL</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="244"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="155">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="313">SELO DIGITAL</item>
+            <item id="314">SELO DIGITAL</item>
+            <item id="315">SELO DIGITAL</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="136">SELO DIGITAL</item>
         </legislacoes>
     </servico>
 </servicos>
