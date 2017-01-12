@@ -492,14 +492,14 @@ classificacaoindicativa@mj.gov.br</contato>
                         <item id="237">Ficha Técnica de Audiovisual</item>
                     </caso>
                     <caso id="46" descricao="Televisão Aberta">
-                        <item id="243">http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</item>
-                        <item id="242">Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</item>
                         <item id="241">Ficha Técnica de Audiovisual</item>
+                        <item id="242">Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</item>
+                        <item id="243">http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</item>
                     </caso>
                     <caso id="47" descricao="Serviço de Acesso Condicionado (TV por assinatura) (dispensável)">
-                        <item id="246">http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</item>
-                        <item id="245">Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</item>
                         <item id="244">Ficha Técnica de Audiovisual</item>
+                        <item id="245">Comprovante de pagamento da Condecine (para produtos estrangeiros em exibição no mercado doméstico)</item>
+                        <item id="246">http://www.justica.gov.br/seus-direitos/classificacao/procedimento/televisao</item>
                     </caso>
                     <caso id="48" descricao="Jogos e aplicativos de distribuição em mídia física (DVD, Blu-ray, cartuchos, etc)">
                         <item id="250">http://www.justica.gov.br/seus-direitos/classificacao/procedimento/jogos-e-rpg</item>
@@ -2419,6 +2419,143 @@ Caso possua, dirija-se a uma unidade de saúde.</descricao>
         </palavras-chave>
         <legislacoes>
             <item id="136">SELO DIGITAL</item>
+        </legislacoes>
+    </servico>
+    <servico>
+        <id>selo150</id>
+        <dbId>99</dbId>
+        <nome>SELO150%</nome>
+        <sigla>SELO150%</sigla>
+        <nomes-populares>
+            <item id="117">SELO150%</item>
+        </nomes-populares>
+        <descricao>SELO150%</descricao>
+        <contato>SELO150%</contato>
+        <gratuito>true</gratuito>
+        <solicitantes>
+            <solicitante id="159">
+                <tipo>SELO150%</tipo>
+                <requisitos>SELO150%</requisitos>
+            </solicitante>
+        </solicitantes>
+        <tempo-total-estimado>
+            <ate max="0" unidade="minutos"/>
+            <descricao>SELO150%</descricao>
+        </tempo-total-estimado>
+        <etapas>
+            <etapa id="183">
+                <titulo>SELO150%</titulo>
+                <descricao>SELO150%</descricao>
+                <documentos>
+                    <default>
+                        <item id="428">SELO150%</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="222" tipo="sms">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="221" tipo="aplicativo-movel">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="220" tipo="web">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="219" tipo="web-emitir">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="218" tipo="web">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="217" tipo="e-mail">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="216" tipo="e-mail">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="184">
+                <titulo>SELO150%</titulo>
+                <descricao>SELO150%</descricao>
+                <documentos>
+                    <default>
+                        <item id="429">SELO150%</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="229" tipo="sms">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="228" tipo="sms">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="227" tipo="e-mail">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="226" tipo="sms">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                    <caso id="85" descricao="SELO150%">
+                        <canal-de-prestacao id="223" tipo="e-mail">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                        <canal-de-prestacao id="224" tipo="sms">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                    <caso id="86" descricao="SELO150%">
+                        <canal-de-prestacao id="225" tipo="presencial">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                    </caso>
+                </canais-de-prestacao>
+            </etapa>
+            <etapa id="185">
+                <titulo>SELO150%</titulo>
+                <descricao>SELO150%</descricao>
+                <documentos>
+                    <default>
+                        <item id="430">SELO150%</item>
+                    </default>
+                </documentos>
+                <custos>
+                    <default/>
+                </custos>
+                <canais-de-prestacao>
+                    <default>
+                        <canal-de-prestacao id="230" tipo="web-preencher">
+                            <descricao>SELO150%</descricao>
+                        </canal-de-prestacao>
+                    </default>
+                </canais-de-prestacao>
+            </etapa>
+        </etapas>
+        <orgao id="1929"/>
+        <segmentos-da-sociedade>
+            <item idSegmento="1" idServicoSegmento="156">Cidadãos</item>
+        </segmentos-da-sociedade>
+        <areas-de-interesse>
+            <item>Abastecimento</item>
+        </areas-de-interesse>
+        <palavras-chave>
+            <item id="316">SELO150%</item>
+            <item id="317">SELO150%</item>
+            <item id="318">SELO150%</item>
+        </palavras-chave>
+        <legislacoes>
+            <item id="137">SELO150%</item>
+            <item id="138">SELO150%</item>
         </legislacoes>
     </servico>
 </servicos>
