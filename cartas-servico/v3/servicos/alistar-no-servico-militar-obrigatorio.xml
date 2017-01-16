@@ -1,41 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome>alistar-no-servico-militar-obrigatorio</nome>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>alistar-no-servico-militar-obrigatorio</id>
+    <dbId>16</dbId>
+    <nome>Alistar no Serviço Militar Obrigatório</nome>
     <sigla>Sigla nova</sigla>
     <nomes-populares>
-        <item>Alistamento</item>
-        <item>Alistamento Militar</item>
+        <item id="58">Alistamento</item>
+        <item id="59">Alistamento Militar</item>
     </nomes-populares>
-    <descricao><![CDATA[O Serviço Militar é o exercício de atividades específicas desempenhadas pela Marinha, Exército e Aeronáutica na defesa nacional.]]></descricao>
-    <contato/>
+    <descricao>O Serviço Militar é o exercício de atividades específicas desempenhadas pela Marinha, Exército e Aeronáutica na defesa nacional.</descricao>
+    <contato></contato>
     <gratuito>true</gratuito>
     <solicitantes>
-        <solicitante>
+        <solicitante id="103">
             <tipo>Brasileiros do sexo masculino que completa 18 anos</tipo>
-            <requisitos><![CDATA[O Alistamento Militar deve ser realizado por todo jovem brasileiro, do sexo masculino no **ano** em que completar 18 anos.]]></requisitos>
+            <requisitos>O Alistamento Militar deve ser realizado por todo jovem brasileiro, do sexo masculino no **ano** em que completar 18 anos.</requisitos>
         </solicitante>
-        <solicitante>
+        <solicitante id="104">
             <tipo>Naturalizado brasileiro do sexo masculino que completa 18 anos</tipo>
-            <requisitos><![CDATA[Brasileiros naturalizados do sexo masculino que completaram 18 anos até o último dia de junho do ano de alistamento.]]></requisitos>
+            <requisitos>Brasileiros naturalizados do sexo masculino que completaram 18 anos até o último dia de junho do ano de alistamento.</requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
         <ate max="1" unidade="meses"/>
-        <descricao/>
+        <descricao></descricao>
     </tempo-total-estimado>
     <etapas>
-        <etapa>
+        <etapa id="115">
             <titulo>Alistar na Junta de Serviço Militar</titulo>
-            <descricao><![CDATA[A Junta de Serviço Militar é um órgão de Serviço Militar sob responsabilidade da prefeitura do seu município, o alistamento terá que ser solicitado pessoalmente na Junta de Serviço Militar.]]></descricao>
+            <descricao>A Junta de Serviço Militar é um órgão de Serviço Militar sob responsabilidade da prefeitura do seu município, o alistamento terá que ser solicitado pessoalmente na Junta de Serviço Militar.</descricao>
             <documentos>
                 <default>
-                    <item>Documento de identidade ou Certidão de nascimento</item>
-                    <item>Fotografia 3x4</item>
-                    <item>Comprovante de residência</item>
-                    <item>Cadastro de Pessoa Física</item>
+                    <item id="312">Documento de identidade ou Certidão de nascimento</item>
+                    <item id="313">Fotografia 3x4</item>
+                    <item id="314">Comprovante de residência</item>
+                    <item id="315">Cadastro de Pessoa Física</item>
                 </default>
-                <caso descricao="Caso seja naturalizado brasileiro do sexo masculino que completa 18 anos">
-                    <item>Prova de naturalização  ou certidão do termo de opção</item>
+                <caso id="61" descricao="Caso seja naturalizado brasileiro do sexo masculino que completa 18 anos">
+                    <item id="311">Prova de naturalização  ou certidão do termo de opção</item>
                 </caso>
             </documentos>
             <custos>
@@ -43,33 +45,33 @@
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="presencial">
-                        <descricao><![CDATA[O alistamento deve ser feito na Junta de Serviço Militar mais próxima de sua residência. 
+                    <canal-de-prestacao id="141" tipo="presencial">
+                        <descricao>O alistamento deve ser feito na Junta de Serviço Militar mais próxima de sua residência. 
   
-Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/jsm.action]]></descricao>
+Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/jsm.action</descricao>
                     </canal-de-prestacao>
                 </default>
-                <caso descricao="Caso more no estado de Sergipe">
-                    <canal-de-prestacao tipo="web">
-                        <descricao><![CDATA[http://www.alistamento.eb.mil.br/]]></descricao>
+                <caso id="62" descricao="Caso more no estado de Sergipe">
+                    <canal-de-prestacao id="140" tipo="web">
+                        <descricao>http://www.alistamento.eb.mil.br/</descricao>
                     </canal-de-prestacao>
                 </caso>
             </canais-de-prestacao>
         </etapa>
-        <etapa>
+        <etapa id="116">
             <titulo>Comparecer a Seleção Geral</titulo>
-            <descricao><![CDATA[Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)]]></descricao>
+            <descricao>Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)</descricao>
             <documentos>
                 <default>
-                    <item>Certificado de Alistamento Militar (CAM)</item>
-                    <item>Carteira de identidade (RG), se tiver</item>
-                    <item>Carteira de Trabalho, se tiver</item>
-                    <item>Certidão de Nascimento original dos filhos, caso adquira esta condição após o alistamento</item>
-                    <item>Certidão de Casamento original, caso adquira esta condição após o alistamento</item>
-                    <item>Declaração escolar: Certificado de conclusão ou atestado de frequência, se tiver</item>
-                    <item>Comprovantes de qualificação ou experiência profissional, se tiver</item>
-                    <item>Comprovante de residência</item>
-                    <item>Carteira nacional de Habilitação, se tiver</item>
+                    <item id="316">Certificado de Alistamento Militar (CAM)</item>
+                    <item id="317">Carteira de identidade (RG), se tiver</item>
+                    <item id="318">Carteira de Trabalho, se tiver</item>
+                    <item id="319">Certidão de Nascimento original dos filhos, caso adquira esta condição após o alistamento</item>
+                    <item id="320">Certidão de Casamento original, caso adquira esta condição após o alistamento</item>
+                    <item id="321">Declaração escolar: Certificado de conclusão ou atestado de frequência, se tiver</item>
+                    <item id="322">Comprovantes de qualificação ou experiência profissional, se tiver</item>
+                    <item id="323">Comprovante de residência</item>
+                    <item id="324">Carteira nacional de Habilitação, se tiver</item>
                 </default>
             </documentos>
             <custos>
@@ -77,19 +79,19 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="presencial">
-                        <descricao><![CDATA[Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)]]></descricao>
+                    <canal-de-prestacao id="142" tipo="presencial">
+                        <descricao>Nesta etapa deve comparecer na data, horário e Junta de Serviço Militar  colocados em anexo no certificado de alistamento militar (CAM)</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa>
+        <etapa id="117">
             <titulo>Caso seja dispensado do Serviço Militar: Receber Certificado de Dispensa de Corporação (CDI)</titulo>
-            <descricao><![CDATA[Nesta etapa deve ir novamente a Junta de Serviço Militar para participar de uma cerimônia de juramento de compromisso à Bandeira Nacional e receber seu Certificado de Dispensa de Incorporação (CDI)]]></descricao>
+            <descricao>Nesta etapa deve ir novamente a Junta de Serviço Militar para participar de uma cerimônia de juramento de compromisso à Bandeira Nacional e receber seu Certificado de Dispensa de Incorporação (CDI)</descricao>
             <documentos>
                 <default>
-                    <item>Documento de identidade</item>
-                    <item>Certificado de Alistamento Militar</item>
+                    <item id="325">Documento de identidade</item>
+                    <item id="326">Certificado de Alistamento Militar</item>
                 </default>
             </documentos>
             <custos>
@@ -97,19 +99,19 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="presencial">
-                        <descricao><![CDATA[Deverá comparecer na mesma Junta de Serviço Militar da Etapa 1.]]></descricao>
+                    <canal-de-prestacao id="143" tipo="presencial">
+                        <descricao>Deverá comparecer na mesma Junta de Serviço Militar da Etapa 1.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa>
+        <etapa id="118">
             <titulo>Caso seja apto ao Serviço Militar: Comparecer a organização militar da marinha, aeronáutico ou exército designado</titulo>
-            <descricao><![CDATA[Caso seja apto o brasileiro irá servir por no mínimo 1 ano na organização militar designada.]]></descricao>
+            <descricao>Caso seja apto o brasileiro irá servir por no mínimo 1 ano na organização militar designada.</descricao>
             <documentos>
                 <default>
-                    <item>Documento de identidade</item>
-                    <item>Certificado de Alistamento Militar</item>
+                    <item id="327">Documento de identidade</item>
+                    <item id="328">Certificado de Alistamento Militar</item>
                 </default>
             </documentos>
             <custos>
@@ -117,27 +119,28 @@ Link das juntas de Serviço Militar: http://www.sermilweb.eb.mil.br/sermilweb/js
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="presencial">
-                        <descricao><![CDATA[Endereço da organização militar designada.]]></descricao>
+                    <canal-de-prestacao id="144" tipo="aplicativo-movel">
+                        <descricao>Endereço da organização militar designada.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/41066"/>
+    <orgao id="41066"/>
     <segmentos-da-sociedade>
-        <item>Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="104">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Defesa Nacional</item>
         <item>Defesa militar</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item>Exército</item>
-        <item>Marinha</item>
-        <item>Aeronáutica</item>
+        <item id="207">Exército</item>
+        <item id="208">Marinha</item>
+        <item id="209">Aeronáutica</item>
+        <item id="210">Marinha</item>
     </palavras-chave>
     <legislacoes>
-        <item><![CDATA[Legislação militar]]></item>
+        <item id="95">Legislação militar.</item>
     </legislacoes>
 </servico>
