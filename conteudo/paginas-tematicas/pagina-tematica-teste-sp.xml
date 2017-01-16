@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica>
+    <conteudo>conteudo da pagina</conteudo>
+    <dbId>48</dbId>
+    <nome>Pagina tematica teste sp</nome>
+    <orgaos>
+        <orgao id="1988"/>
+    </orgaos>
+</pagina-tematica>
