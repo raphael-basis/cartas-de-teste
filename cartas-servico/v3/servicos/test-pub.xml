@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>test-pub</id>
+    <dbId>95</dbId>
+    <nome>test pub</nome>
+    <sigla>tp</sigla>
+    <descricao>test pub</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante id="154">
+            <tipo>test</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa id="177">
+            <titulo>test</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="207" tipo="e-mail">
+                        <descricao>test@test.test</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="1988"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="149">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="301">test</item>
+        <item id="302">test</item>
+        <item id="303">test</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="132">test</item>
+    </legislacoes>
+</servico>
