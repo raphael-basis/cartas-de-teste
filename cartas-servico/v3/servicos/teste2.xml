@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd">
+    <id>este-e-um-teste-com-texto-maiusculo-e-minusculo</id>
+    <dbId>22</dbId>
+    <nome>teste2</nome>
+    <sigla>TST2</sigla>
+    <nomes-populares>
+        <item id="101">nome1</item>
+        <item id="102">nome2</item>
+    </nomes-populares>
+    <descricao>Descrição</descricao>
+    <contato/>
+    <gratuito>false</gratuito>
+    <solicitantes>
+        <solicitante id="127">
+            <tipo>Solicitante Teste</tipo>
+            <requisitos/>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <em-media max="6" unidade="meses"/>
+        <descricao>servico com tempo estimado em média</descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa id="143">
+            <titulo>ETAPA 1</titulo>
+            <descricao/>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="14">
+                        <descricao>Custo</descricao>
+                        <moeda/>
+                        <valor>10</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="134" tipo="fax">
+                        <descricao>51 910 234 34</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="80675"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="98">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="241">Palavra 1</item>
+        <item id="242">Palavra 2</item>
+        <item id="243">Palavra 3</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="87">Le</item>
+    </legislacoes>
+</servico>
