@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>wasd3</id>
+    <dbId>99</dbId>
+    <nome>wasd3</nome>
+    <sigla>wasd3</sigla>
+    <nomes-populares>
+        <item id="123">wasd3</item>
+    </nomes-populares>
+    <descricao>wasd3</descricao>
+    <contato>wasd3</contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante id="158">
+            <tipo>wasd3</tipo>
+            <requisitos>wasd3</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="123" unidade="minutos"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <etapas>
+        <etapa id="181">
+            <titulo>wasd3</titulo>
+            <descricao>wasd3</descricao>
+            <documentos>
+                <default>
+                    <item id="423">wasd3</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="211" tipo="e-mail">
+                        <descricao>wasd3</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="108999"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="152">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="307">wasd3</item>
+        <item id="308">wasd3</item>
+        <item id="309">wasd3</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="134">wasd3</item>
+    </legislacoes>
+</servico>
