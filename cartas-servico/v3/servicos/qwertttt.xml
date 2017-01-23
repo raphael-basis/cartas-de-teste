@@ -21,10 +21,16 @@
         <descricao></descricao>
     </tempo-total-estimado>
     <validade-documento>
-        <tipo>Válido por</tipo>
+        <tipo>Sem validade</tipo>
         <quantidade>12</quantidade>
         <unidade>meses</unidade>
-        <descricao></descricao>
+        <descricao>**Este é** *um teste* de
+
+1. Mar
+2. K
+3. down
+
+[Portal de Serviços](http://servicos.gov.br)</descricao>
     </validade-documento>
     <etapas>
         <etapa id="186">
