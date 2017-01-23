@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>qwertttt</id>
+    <dbId>107</dbId>
+    <nome>qwertttt</nome>
+    <sigla>qwertttt</sigla>
+    <nomes-populares>
+        <item id="126">qwertttt</item>
+    </nomes-populares>
+    <descricao>qwertttt</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante id="164">
+            <tipo>qwertttt</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="12" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>12</quantidade>
+        <unidade>meses</unidade>
+        <descricao></descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="186">
+            <titulo>qwertttt</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="216" tipo="e-mail">
+                        <descricao>qwertttt</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="1988"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="157">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="322">qwertttt</item>
+        <item id="323">qwertttt</item>
+        <item id="324">qwertttt</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="139">qwertttt</item>
+    </legislacoes>
+</servico>
