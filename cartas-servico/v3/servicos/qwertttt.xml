@@ -23,8 +23,8 @@
     <validade-documento>
         <tipo>Válido por</tipo>
         <quantidade>12</quantidade>
-        <unidade>meses</unidade>
-        <descricao>O documento deste serviço é válido por 12 meses.</descricao>
+        <unidade>dias</unidade>
+        <descricao></descricao>
     </validade-documento>
     <etapas>
         <etapa id="186">
