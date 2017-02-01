@@ -21,6 +21,7 @@
         <em-media max="6" unidade="meses"/>
         <descricao>servico com tempo estimado em média</descricao>
     </tempo-total-estimado>
+    <validade-documento/>
     <etapas>
         <etapa id="143">
             <titulo>ETAPA 1</titulo>
