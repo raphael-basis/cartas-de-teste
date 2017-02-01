@@ -21,7 +21,12 @@
         <em-media max="6" unidade="meses"/>
         <descricao>servico com tempo estimado em média</descricao>
     </tempo-total-estimado>
-    <validade-documento/>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>123321</quantidade>
+        <unidade>dias</unidade>
+        <descricao>123 dias 321 meses</descricao>
+    </validade-documento>
     <etapas>
         <etapa id="143">
             <titulo>ETAPA 1</titulo>
