@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>servico-com-porcentagem</id>
+    <dbId>642</dbId>
+    <nome>Servico com Porcentagem</nome>
+    <sigla>SCP</sigla>
+    <nomes-populares>
+        <item id="294">teste</item>
+    </nomes-populares>
+    <descricao>dasdsadsaadsdsa</descricao>
+    <contato>dsadsadsasdasad</contato>
+    <gratuito>false</gratuito>
+    <solicitantes>
+        <solicitante id="280">
+            <tipo>dsad</tipo>
+            <requisitos>sadsadasdasdsadsa</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Válido por</tipo>
+        <quantidade>10</quantidade>
+        <unidade>anos</unidade>
+        <descricao>dsadssdadsda</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="1362">
+            <titulo>dsadsa</titulo>
+            <descricao>dasdasdsadas</descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default>
+                    <custo id="23">
+                        <descricao>adsasda</descricao>
+                        <moeda></moeda>
+                        <valor>100</valor>
+                    </custo>
+                </default>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1706" tipo="aplicativo-movel">
+                        <descricao>dsadsadsadasdassad</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="207378"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1713">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="715">dsads</item>
+        <item id="716">saddasdsadas</item>
+        <item id="717">dsadasdasdasdassad</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="213">dsaadsdasdas</item>
+    </legislacoes>
+</servico>
