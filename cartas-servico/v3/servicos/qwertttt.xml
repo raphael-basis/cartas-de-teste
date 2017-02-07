@@ -23,8 +23,8 @@
     <validade-documento>
         <tipo>Válido por</tipo>
         <quantidade>12</quantidade>
-        <unidade>dias</unidade>
-        <descricao></descricao>
+        <unidade>meses</unidade>
+        <descricao>Informações de validade.</descricao>
     </validade-documento>
     <etapas>
         <etapa id="186">
