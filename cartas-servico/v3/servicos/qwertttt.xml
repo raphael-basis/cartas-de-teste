@@ -10,6 +10,7 @@
     <descricao>qwertttt</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
+    <porcentagem-digital>0</porcentagem-digital>
     <solicitantes>
         <solicitante id="164">
             <tipo>qwertttt</tipo>
@@ -21,7 +22,7 @@
         <descricao></descricao>
     </tempo-total-estimado>
     <validade-documento>
-        <tipo>Válido por</tipo>
+        <tipo>Sem validade</tipo>
         <quantidade>12</quantidade>
         <unidade>meses</unidade>
         <descricao>Informações de validade.</descricao>
