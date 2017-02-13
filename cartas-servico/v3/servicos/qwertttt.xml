@@ -22,7 +22,7 @@
         <descricao></descricao>
     </tempo-total-estimado>
     <validade-documento>
-        <tipo>Sem validade</tipo>
+        <tipo>Válido por</tipo>
         <quantidade>12</quantidade>
         <unidade>meses</unidade>
         <descricao>Informações de validade.</descricao>
