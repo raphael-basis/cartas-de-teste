@@ -11,6 +11,7 @@
     <descricao>Descrição</descricao>
     <contato></contato>
     <gratuito>false</gratuito>
+    <porcentagem-digital>99</porcentagem-digital>
     <solicitantes>
         <solicitante id="127">
             <tipo>Solicitante Teste</tipo>
