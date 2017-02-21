@@ -29,21 +29,21 @@
     </validade-documento>
     <etapas>
         <etapa id="48">
-            <titulo>Ygor</titulo>
-            <descricao>Ygor</descricao>
+            <titulo>Título da etapa 1</titulo>
+            <descricao>Descrição da etapa 1</descricao>
             <documentos>
                 <default>
                     <documento codigo="0">
-                        <id>104</id>
-                        <descricao>Ygor</descricao>
+                        <id>111</id>
+                        <descricao>Doc 1</descricao>
                     </documento>
                     <documento codigo="0">
-                        <id>105</id>
-                        <descricao>Ygor</descricao>
+                        <id>112</id>
+                        <descricao>Doc 2</descricao>
                     </documento>
                     <documento codigo="0">
-                        <id>106</id>
-                        <descricao>Ygor</descricao>
+                        <id>113</id>
+                        <descricao>Doc 3</descricao>
                     </documento>
                 </default>
             </documentos>
