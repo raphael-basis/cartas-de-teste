@@ -33,17 +33,17 @@
             <descricao>Descrição da etapa 1</descricao>
             <documentos>
                 <default>
-                    <documento codigo="0">
-                        <id>111</id>
-                        <descricao>Doc 1</descricao>
+                    <documento>
+                        <id>114</id>
+                        <descricao>Doc 10</descricao>
                     </documento>
-                    <documento codigo="0">
-                        <id>112</id>
-                        <descricao>Doc 2</descricao>
+                    <documento>
+                        <id>115</id>
+                        <descricao>Doc 20</descricao>
                     </documento>
-                    <documento codigo="0">
-                        <id>113</id>
-                        <descricao>Doc 3</descricao>
+                    <documento>
+                        <id>116</id>
+                        <descricao>Doc 30</descricao>
                     </documento>
                 </default>
             </documentos>
