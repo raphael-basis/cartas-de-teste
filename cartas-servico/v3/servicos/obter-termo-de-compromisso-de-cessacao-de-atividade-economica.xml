@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome><![CDATA[Obter termo de compromisso de cessação de atividade econômica]]></nome>
+    <nome>obter-termo-de-compromisso-de-cessacao-de-atividade-economica</nome>
     <sigla>TCC</sigla>
     <nomes-populares/>
     <descricao><![CDATA[O TCC poderá ocorrer no curso das investigações contra a ordem econômica e trata de um acordo entre a autoridade encarregada do processo administrativo e o representado – pessoa física ou jurídica – cuja conduta se analisa. A partir da celebração do compromisso de cessação, a investigação é suspensa enquanto o administrado compromete-se a suspender as práticas que geraram as suspeitas de infração à ordem econômica, independentemente do reconhecimento de culpa.]]></descricao>
