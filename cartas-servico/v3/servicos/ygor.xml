@@ -33,9 +33,9 @@
             <descricao>Descrição da etapa 1</descricao>
             <documentos>
                 <default>
-                    <item id="120">Doc 10</item>
-                    <item id="121">Doc 20</item>
-                    <item id="122">Doc 30</item>
+                    <item id="126">Doc 101</item>
+                    <item id="127">Doc 202</item>
+                    <item id="128">Doc 303</item>
                 </default>
             </documentos>
             <custos>
