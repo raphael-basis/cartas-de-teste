@@ -1,47 +1,59 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servico xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://servicos.gov.br/v3/schema ../servico.xsd">
-    <nome><![CDATA[Obter termo de compromisso de cessação de atividade econômica]]></nome>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>obter-termo-de-compromisso-de-cessacao-de-atividade-economica</id>
+    <dbId>18</dbId>
+    <nome>Obter termo de compromisso de cessação de atividade econômica</nome>
     <sigla>TCC</sigla>
-    <nomes-populares/>
-    <descricao><![CDATA[O TCC poderá ocorrer no curso das investigações contra a ordem econômica e trata de um acordo entre a autoridade encarregada do processo administrativo e o representado – pessoa física ou jurídica – cuja conduta se analisa. A partir da celebração do compromisso de cessação, a investigação é suspensa enquanto o administrado compromete-se a suspender as práticas que geraram as suspeitas de infração à ordem econômica, independentemente do reconhecimento de culpa.]]></descricao>
-    <contato/>
+    <nomes-populares>
+        <item id="16">teste</item>
+    </nomes-populares>
+    <descricao>O TCC poderá ocorrer no curso das investigações contra a ordem econômica e trata de um acordo entre a autoridade encarregada do processo administrativo e o representado – pessoa física ou jurídica – cuja conduta se analisa. A partir da celebração do compromisso de cessação, a investigação é suspensa enquanto o administrado compromete-se a suspender as práticas que geraram as suspeitas de infração à ordem econômica, independentemente do reconhecimento de culpa..</descricao>
+    <contato></contato>
     <gratuito>false</gratuito>
+    <porcentagem-digital>0</porcentagem-digital>
     <solicitantes>
-        <solicitante>
+        <solicitante id="26">
             <tipo>Brasileiros - Pessoa física</tipo>
-            <requisitos><![CDATA[Estes requisitos valem para todos os tipos de solicitantes.
+            <requisitos>Estes requisitos valem para todos os tipos de solicitantes.
 
 Os pré-requisitos para se firmar um TCC são:
 
 (i) reconhecimento da participação na conduta investigada, nos casos de cartel.
 (ii) obrigação de não voltar a praticar a conduta investigada; e 
-(iii) outras medidas possíveis, como medidas estruturais e/ou comportamentais que estimulem e/ou reestabeleçam a concorrência no mercado, ou ainda que reparem os efeitos negativos da conduta.]]></requisitos>
+(iii) outras medidas possíveis, como medidas estruturais e/ou comportamentais que estimulem e/ou reestabeleçam a concorrência no mercado, ou ainda que reparem os efeitos negativos da conduta.</requisitos>
         </solicitante>
-        <solicitante>
+        <solicitante id="27">
             <tipo>Brasileiros - Pessoa jurídica</tipo>
-            <requisitos/>
+            <requisitos></requisitos>
         </solicitante>
-        <solicitante>
+        <solicitante id="28">
             <tipo>Estrangeiro - Pessoa física</tipo>
-            <requisitos/>
+            <requisitos></requisitos>
         </solicitante>
-        <solicitante>
+        <solicitante id="29">
             <tipo>Estrangeiro - Pessoa jurídica</tipo>
-            <requisitos/>
+            <requisitos></requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
         <ate max="300" unidade="dias-corridos"/>
-        <descricao/>
+        <descricao></descricao>
     </tempo-total-estimado>
+    <validade-documento/>
     <etapas>
-        <etapa>
+        <etapa id="34">
             <titulo>Realizar credenciamento</titulo>
-            <descricao><![CDATA[O passo-a-passo para o credenciamento pode ser encontrado em http://www.cade.gov.br/noticias/requerimento-de-tcc-ja-pode-ser-realizado-pelo-protocolo-eletronico-do-cade/guia-peticionamento-eletronico.pdf]]></descricao>
+            <descricao>O passo-a-passo para o credenciamento pode ser encontrado em http://www.cade.gov.br/noticias/requerimento-de-tcc-ja-pode-ser-realizado-pelo-protocolo-eletronico-do-cade/guia-peticionamento-eletronico.pdf</descricao>
             <documentos>
                 <default>
-                    <item>cpf</item>
-                    <item>rg</item>
+                    <documento>
+                        <id>78</id>
+                        <descricao>cpf</descricao>
+                    </documento>
+                    <documento>
+                        <id>79</id>
+                        <descricao>rg</descricao>
+                    </documento>
                 </default>
             </documentos>
             <custos>
@@ -49,18 +61,21 @@ Os pré-requisitos para se firmar um TCC são:
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="web">
-                        <descricao><![CDATA[http://sei.cade.gov.br/sei/institucional/usuarioexterno/controlador_externo.php?acao=usuario_externo_logar&id_orgao_acesso_externo=0]]></descricao>
+                    <canal-de-prestacao id="45" tipo="web">
+                        <descricao>http://sei.cade.gov.br/sei/institucional/usuarioexterno/controlador_externo.php?acao=usuario_externo_logar&amp;id_orgao_acesso_externo=0</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa>
+        <etapa id="35">
             <titulo>Apresentar documentação</titulo>
-            <descricao/>
+            <descricao></descricao>
             <documentos>
                 <default>
-                    <item>cpf</item>
+                    <documento>
+                        <id>80</id>
+                        <descricao>cpf</descricao>
+                    </documento>
                 </default>
             </documentos>
             <custos>
@@ -68,34 +83,46 @@ Os pré-requisitos para se firmar um TCC são:
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="postal">
-                        <descricao><![CDATA[Endereço informado no momento do cadastramento realizado na etapa anterior.]]></descricao>
+                    <canal-de-prestacao id="46" tipo="postal">
+                        <descricao>Endereço informado no momento do cadastramento realizado na etapa anterior.</descricao>
                     </canal-de-prestacao>
-                    <canal-de-prestacao tipo="presencial">
-                        <descricao><![CDATA[Endereço informado no momento do cadastramento realizado na etapa anterior.]]></descricao>
+                    <canal-de-prestacao id="47" tipo="presencial">
+                        <descricao>Endereço informado no momento do cadastramento realizado na etapa anterior.</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa>
+        <etapa id="36">
             <titulo>Realizar requerimento de TCC</titulo>
-            <descricao><![CDATA[O sistema gera automaticamente recibo eletrônico do Requerimento de TCC,
+            <descricao>O sistema gera automaticamente recibo eletrônico do Requerimento de TCC,
 onde consta o número do processo, o tipo do processo e nível de acesso, a
 data e hora do protocolo do requerimento, o nome do usuário externo e o
 número do IP da máquina de acesso do usuário externo. O comprovante pode
-ser impresso ou armazenado como documento eletrônico.]]></descricao>
+ser impresso ou armazenado como documento eletrônico.</descricao>
             <documentos>
                 <default>
-                    <item>Número do processo a que o requerimento é relacionado</item>
+                    <documento>
+                        <id>84</id>
+                        <descricao>Número do processo a que o requerimento é relacionado</descricao>
+                    </documento>
                 </default>
-                <caso descricao="Se for Brasilero - Pessoa física">
-                    <item>cpf</item>
+                <caso id="19" descricao="Se for Brasilero - Pessoa física">
+                    <documento>
+                        <id>81</id>
+                        <descricao>cpf</descricao>
+                    </documento>
                 </caso>
-                <caso descricao="Se for Brasilero - Pessoa jurídica">
-                    <item>cnpj</item>
+                <caso id="20" descricao="Se for Brasilero - Pessoa jurídica">
+                    <documento>
+                        <id>82</id>
+                        <descricao>cnpj</descricao>
+                    </documento>
                 </caso>
-                <caso descricao="Se for estrangeiro">
-                    <item>Colocar lista aqui</item>
+                <caso id="21" descricao="Se for estrangeiro">
+                    <documento>
+                        <id>83</id>
+                        <descricao>Colocar lista aqui</descricao>
+                    </documento>
                 </caso>
             </documentos>
             <custos>
@@ -103,45 +130,44 @@ ser impresso ou armazenado como documento eletrônico.]]></descricao>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="web">
-                        <descricao><![CDATA[Colocar canal aqui]]></descricao>
+                    <canal-de-prestacao id="48" tipo="web">
+                        <descricao>Colocar canal aqui</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
-        <etapa>
+        <etapa id="37">
             <titulo>Consultar processo</titulo>
-            <descricao/>
+            <descricao></descricao>
             <documentos>
                 <default/>
             </documentos>
             <custos>
                 <default/>
-                <caso descricao="Haverá uma contribuição pecuniária"/>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao tipo="web-acompanhar">
-                        <descricao><![CDATA[Colocar canal aqui]]></descricao>
+                    <canal-de-prestacao id="49" tipo="web-acompanhar">
+                        <descricao>Colocar canal aqui</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/1988"/>
+    <orgao id="1988"/>
     <segmentos-da-sociedade>
-        <item>Cidadãos</item>
-        <item>Empresas</item>
+        <item idSegmento="1" idServicoSegmento="24">Cidadãos</item>
+        <item idSegmento="3" idServicoSegmento="25">Empresas</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Economia e Finanças</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item>Acordo</item>
-        <item>Cartel</item>
-        <item>Concorrência</item>
+        <item id="51">Acordo</item>
+        <item id="52">Cartel</item>
+        <item id="53">Concorrência</item>
     </palavras-chave>
     <legislacoes>
-        <item><![CDATA[Lei x]]></item>
+        <item id="20">Lei x</item>
     </legislacoes>
 </servico>

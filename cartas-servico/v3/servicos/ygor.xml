@@ -1,64 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <id>qwertttt</id>
-    <dbId>107</dbId>
-    <nome>qwertttt</nome>
-    <sigla>qwertttt</sigla>
+    <id>ygor</id>
+    <dbId>27</dbId>
+    <nome>Ygor</nome>
+    <sigla>Ygor</sigla>
     <nomes-populares>
-        <item id="126">qwertttt</item>
+        <item id="25">Ygor</item>
     </nomes-populares>
-    <descricao>qwertttt</descricao>
-    <contato></contato>
+    <descricao>Ygor</descricao>
+    <contato>Ygor</contato>
     <gratuito>true</gratuito>
     <porcentagem-digital>0</porcentagem-digital>
     <solicitantes>
-        <solicitante id="164">
-            <tipo>qwertttt</tipo>
-            <requisitos></requisitos>
+        <solicitante id="39">
+            <tipo>Ygor</tipo>
+            <requisitos>Ygor</requisitos>
         </solicitante>
     </solicitantes>
     <tempo-total-estimado>
-        <ate max="12" unidade="horas"/>
+        <ate max="12" unidade="minutos"/>
         <descricao></descricao>
     </tempo-total-estimado>
     <validade-documento>
         <tipo>Válido por</tipo>
         <quantidade>12</quantidade>
         <unidade>meses</unidade>
-        <descricao>Informações de validade.</descricao>
+        <descricao></descricao>
     </validade-documento>
     <etapas>
-        <etapa id="186">
-            <titulo>qwertttt</titulo>
-            <descricao></descricao>
+        <etapa id="48">
+            <titulo>Título da etapa 1</titulo>
+            <descricao>Descrição da etapa 1</descricao>
             <documentos>
-                <default/>
+                <default>
+                    <item id="126">Doc 101</item>
+                    <item id="127">Doc 202</item>
+                    <item id="128">Doc 303</item>
+                </default>
             </documentos>
             <custos>
                 <default/>
             </custos>
             <canais-de-prestacao>
                 <default>
-                    <canal-de-prestacao id="216" tipo="e-mail">
-                        <descricao>qwertttt</descricao>
+                    <canal-de-prestacao id="64" tipo="e-mail">
+                        <descricao>Ygor</descricao>
                     </canal-de-prestacao>
                 </default>
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao id="1988"/>
+    <orgao id="61283"/>
     <segmentos-da-sociedade>
-        <item idSegmento="1" idServicoSegmento="157">Cidadãos</item>
+        <item idSegmento="1" idServicoSegmento="39">Cidadãos</item>
     </segmentos-da-sociedade>
     <areas-de-interesse>
         <item>Abastecimento</item>
     </areas-de-interesse>
     <palavras-chave>
-        <item id="322">qwertttt</item>
-        <item id="323">qwertttt</item>
-        <item id="324">qwertttt</item>
+        <item id="73">Ygor</item>
+        <item id="74">Ygor</item>
+        <item id="75">Ygor</item>
     </palavras-chave>
     <legislacoes>
-        <item id="139">qwertttt</item>
+        <item id="29">Ygor</item>
     </legislacoes>
 </servico>
