@@ -10,7 +10,6 @@
     <descricao>Ygor</descricao>
     <contato>Ygor</contato>
     <gratuito>true</gratuito>
-    <porcentagem-digital>0</porcentagem-digital>
     <solicitantes>
         <solicitante id="39">
             <tipo>Ygor</tipo>
@@ -21,30 +20,15 @@
         <ate max="12" unidade="minutos"/>
         <descricao></descricao>
     </tempo-total-estimado>
-    <validade-documento>
-        <tipo>Válido por</tipo>
-        <quantidade>12</quantidade>
-        <unidade>meses</unidade>
-        <descricao></descricao>
-    </validade-documento>
     <etapas>
         <etapa id="48">
             <titulo>Título da etapa 1</titulo>
             <descricao>Descrição da etapa 1</descricao>
             <documentos>
                 <default>
-                    <documento>
-                        <id>114</id>
-                        <descricao>Doc 10</descricao>
-                    </documento>
-                    <documento>
-                        <id>115</id>
-                        <descricao>Doc 20</descricao>
-                    </documento>
-                    <documento>
-                        <id>116</id>
-                        <descricao>Doc 30</descricao>
-                    </documento>
+                    <item id="114">Doc 10</item>
+                    <item id="115">Doc 20</item>
+                    <item id="116">Doc 30</item>
                 </default>
             </documentos>
             <custos>
