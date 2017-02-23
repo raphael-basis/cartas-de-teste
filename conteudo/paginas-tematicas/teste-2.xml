@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica>
+    <conteudo>conteudo teste 1</conteudo>
+    <dbId>11</dbId>
+    <nome>teste 2</nome>
+    <orgaos>
+        <orgao id="207378"/>
+        <orgao id="113017"/>
+    </orgaos>
+</pagina-tematica>
