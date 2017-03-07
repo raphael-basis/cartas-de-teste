@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-de-orgao</id>
+    <dbId>1</dbId>
+    <nome>Teste de órgão</nome>
+    <sigla>to</sigla>
+    <nomes-populares>
+        <item id="1">teste</item>
+    </nomes-populares>
+    <descricao>teste</descricao>
+    <contato>teste</contato>
+    <gratuito>true</gratuito>
+    <porcentagem-digital>0</porcentagem-digital>
+    <solicitantes>
+        <solicitante id="1">
+            <tipo>tetetetet</tipo>
+            <requisitos>teetteteet</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="20" unidade="minutos"/>
+        <descricao>dasdsadsadsa</descricao>
+    </tempo-total-estimado>
+    <validade-documento/>
+    <etapas>
+        <etapa id="1">
+            <titulo>dsadsadsa</titulo>
+            <descricao>dsadsadas</descricao>
+            <documentos>
+                <default>
+                    <item id="1">sdadassad</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="1" tipo="e-mail">
+                        <descricao>sadassdadasdas</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="1986"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="1">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="1">dsa</item>
+        <item id="2">dsadsa</item>
+        <item id="3">dsadsadsa</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="1">dsadasdasdsads</item>
+    </legislacoes>
+</servico>
