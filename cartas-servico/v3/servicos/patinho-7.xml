@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>patinho-7</id>
+    <dbId>5</dbId>
+    <nome>Patinho 7</nome>
+    <sigla>Patinho 7</sigla>
+    <nomes-populares>
+        <item id="5">Patinho 7</item>
+    </nomes-populares>
+    <descricao>Patinho 7</descricao>
+    <contato>Patinho 7</contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante id="5">
+            <tipo>Patinho 7</tipo>
+            <requisitos>Patinho 7</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="20" unidade="minutos"/>
+        <descricao>Patinho 7</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao>Patinho 7</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="5">
+            <titulo>Patinho 7</titulo>
+            <descricao>Patinho 7</descricao>
+            <documentos>
+                <default>
+                    <item id="5">Patinho 7</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="5" tipo="web-inscrever-se">
+                        <descricao>Patinho 7</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="207309"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="5">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="13">Patinho 7</item>
+        <item id="14">Patinho 8</item>
+        <item id="15">Patinho 9</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="5">Patinho 7</item>
+    </legislacoes>
+</servico>
