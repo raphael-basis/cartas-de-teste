@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>teste-porcentagem-digital</id>
+    <dbId>31</dbId>
+    <nome>Teste Porcentagem Digital</nome>
+    <sigla></sigla>
+    <descricao>Teste Porcentagem Digital</descricao>
+    <contato></contato>
+    <gratuito>true</gratuito>
+    <porcentagem-digital>0</porcentagem-digital>
+    <solicitantes>
+        <solicitante id="41">
+            <tipo>Teste Porcentagem Digital</tipo>
+            <requisitos></requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <ate max="20" unidade="horas"/>
+        <descricao></descricao>
+    </tempo-total-estimado>
+    <validade-documento/>
+    <etapas>
+        <etapa id="50">
+            <titulo>Teste Porcentagem Digital</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default>
+                    <item id="129">Teste Porcentagem Digital 1</item>
+                    <item id="130">Teste Porcentagem Digital 2</item>
+                    <item id="131">Teste Porcentagem Digital 3</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="66" tipo="e-mail">
+                        <descricao>a@b.c</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+        <etapa id="51">
+            <titulo>Teste Porcentagem Digital 2</titulo>
+            <descricao></descricao>
+            <documentos>
+                <default/>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="67" tipo="presencial">
+                        <descricao>Teste Porcentagem Digital</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="61283"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="1" idServicoSegmento="41">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Abastecimento</item>
+        <item>Agropecuária</item>
+        <item>Assistência Hospitalar e Ambulatorial</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="79">a</item>
+        <item id="80">b</item>
+        <item id="81">c</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="31">Teste Porcentagem Digital</item>
+    </legislacoes>
+</servico>
