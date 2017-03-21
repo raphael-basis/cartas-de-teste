@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica>
+    <conteudo>teste</conteudo>
+    <dbId>1</dbId>
+    <nome>Pagina um</nome>
+    <orgaos>
+        <orgao id="207309"/>
+    </orgaos>
+</pagina-tematica>
