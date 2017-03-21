@@ -10,6 +10,7 @@
     <descricao>desc</descricao>
     <contato>dsadsadsaads</contato>
     <gratuito>true</gratuito>
+    <porcentagem>54</porcentagem>
     <solicitantes>
         <solicitante id="6">
             <tipo>Solicitante one</tipo>
