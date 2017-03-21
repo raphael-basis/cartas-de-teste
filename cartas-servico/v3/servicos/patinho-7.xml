@@ -10,7 +10,7 @@
     <descricao>Patinho 7</descricao>
     <contato>Patinho 7</contato>
     <gratuito>true</gratuito>
-    <porcentagem-digital>68</porcentagem-digital>
+    <porcentagem>55</porcentagem>
     <solicitantes>
         <solicitante id="5">
             <tipo>Patinho 7</tipo>
