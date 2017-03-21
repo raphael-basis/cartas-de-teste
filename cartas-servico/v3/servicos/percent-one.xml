@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<servico xsi:schemaLocation="http://servicos.gov.br/v3/schema.../servico.xsd" xmlns="http://servicos.gov.br/v3/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>percent-one</id>
+    <dbId>6</dbId>
+    <nome>Percent One</nome>
+    <sigla>PO</sigla>
+    <nomes-populares>
+        <item id="6">Teste</item>
+    </nomes-populares>
+    <descricao>desc</descricao>
+    <contato>dsadsadsaads</contato>
+    <gratuito>true</gratuito>
+    <solicitantes>
+        <solicitante id="6">
+            <tipo>Solicitante one</tipo>
+            <requisitos>Solicitante one</requisitos>
+        </solicitante>
+    </solicitantes>
+    <tempo-total-estimado>
+        <atendimento-imediato/>
+        <descricao>teste</descricao>
+    </tempo-total-estimado>
+    <validade-documento>
+        <tipo>Sem validade</tipo>
+        <quantidade>0</quantidade>
+        <unidade></unidade>
+        <descricao>dadadsad</descricao>
+    </validade-documento>
+    <etapas>
+        <etapa id="6">
+            <titulo>ETP #1</titulo>
+            <descricao>Descrcisajdasoads</descricao>
+            <documentos>
+                <default>
+                    <item id="6">dadsdsa</item>
+                </default>
+            </documentos>
+            <custos>
+                <default/>
+            </custos>
+            <canais-de-prestacao>
+                <default>
+                    <canal-de-prestacao id="6" tipo="web-agendar">
+                        <descricao>dasaddsa</descricao>
+                    </canal-de-prestacao>
+                </default>
+            </canais-de-prestacao>
+        </etapa>
+    </etapas>
+    <orgao id="207309"/>
+    <segmentos-da-sociedade>
+        <item idSegmento="3" idServicoSegmento="6">Empresas</item>
+        <item idSegmento="1" idServicoSegmento="7">Cidadãos</item>
+    </segmentos-da-sociedade>
+    <areas-de-interesse>
+        <item>Agropecuária</item>
+        <item>Abastecimento</item>
+    </areas-de-interesse>
+    <palavras-chave>
+        <item id="16">dasd</item>
+        <item id="17">adssadas</item>
+        <item id="18">sdadasdassda</item>
+    </palavras-chave>
+    <legislacoes>
+        <item id="6">saddsadassadds</item>
+    </legislacoes>
+</servico>
