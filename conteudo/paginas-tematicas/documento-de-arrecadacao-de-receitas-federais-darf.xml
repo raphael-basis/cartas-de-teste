@@ -29,9 +29,11 @@ Você pode pagar o Darf, mesmo sem código de barras, em terminais de autoatendi
 * [Parcelamento Timemania RFB](/servico/parcelamento-timemania-rfb?pk_campaign=darf)
 * [Retificação de Documento de Arrecadação de Receitas Federais (Darf) – Redarf](/servico/retificacao-de-documento-de-arrecadacao-de-receitas-federais-darf-redarf?pk_campaign=darf)
 * [Transferências de Imóveis - Cálculo de Laudêmio, Emissão de CAT, Validação de CAT e Emissão de Darf](/servico/transferencias-de-imoveis-calculo-de-laudemio-emissao-de-cat-validacao-de-cat-e-emissao-de-darf?pk_campaign=darf)</conteudo>
-    <dbId>2</dbId>
-    <nome>documento-de-arrecadacao-de-receitas-federais-darf</nome>
+    <dbId>7</dbId>
+    <nome>Documento de Arrecadação de Receitas Federais (Darf)</nome>
     <orgaos>
-        <orgao id="1929"/>
+        <orgao dbId="794"/>
+        <orgao dbId="41696"/>
+        <orgao dbId="41695"/>
     </orgaos>
 </pagina-tematica>
