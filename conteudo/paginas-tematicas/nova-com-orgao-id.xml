@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica>
+    <conteudo>Vários conteúdos</conteudo>
+    <dbId>12</dbId>
+    <nome>Nova com Órgão ID</nome>
+    <orgaos>
+        <orgao dbId="794"/>
+        <orgao dbId="58048"/>
+        <orgao dbId="41701"/>
+    </orgaos>
+</pagina-tematica>
