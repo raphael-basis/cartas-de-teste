@@ -45,8 +45,8 @@
             </canais-de-prestacao>
         </etapa>
     </etapas>
-    <orgao dbId="794">
-        <nomeOrgao>61283</nomeOrgao>
+    <orgao id="61283" dbId="794">
+        <nomeOrgao>Administração (ADM-HP)</nomeOrgao>
     </orgao>
     <segmentos-da-sociedade>
         <item idSegmento="1" idServicoSegmento="47">Cidadãos</item>
