@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pagina-tematica>
+    <conteudo>Teste Integra</conteudo>
+    <dbId>13</dbId>
+    <nome>Teste Integra</nome>
+    <orgaos>
+        <orgao id="61283" dbId="794">
+            <nomeOrgao>Administração (ADM-HP)</nomeOrgao>
+        </orgao>
+        <orgao dbId="58048">
+            <nomeOrgao>Ministério do Ygor (YG)</nomeOrgao>
+        </orgao>
+        <orgao dbId="58049">
+            <nomeOrgao>wadsad (WASD)</nomeOrgao>
+        </orgao>
+    </orgaos>
+</pagina-tematica>
