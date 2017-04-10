@@ -3,7 +3,10 @@
     <id>lu123la</id>
     <dbId>36</dbId>
     <nome>Lu123La</nome>
-    <sigla></sigla>
+    <sigla>awsad</sigla>
+    <nomes-populares>
+        <item id="27">asdw</item>
+    </nomes-populares>
     <descricao>Lu123La</descricao>
     <contato></contato>
     <gratuito>true</gratuito>
