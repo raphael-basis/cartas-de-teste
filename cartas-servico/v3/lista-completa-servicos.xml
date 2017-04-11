@@ -44,8 +44,8 @@
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao>
-            <nomeOrgao>1986</nomeOrgao>
+        <orgao id="1986" dbId="43033">
+            <nomeOrgao>Secretaria do Patrimônio da União (SPU)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="1">Cidadãos</item>
@@ -111,8 +111,8 @@
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao>
-            <nomeOrgao>207309</nomeOrgao>
+        <orgao id="207309" dbId="41697">
+            <nomeOrgao>Secretaria (ABSEC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="5">Cidadãos</item>
@@ -178,8 +178,8 @@
                 </canais-de-prestacao>
             </etapa>
         </etapas>
-        <orgao>
-            <nomeOrgao>207309</nomeOrgao>
+        <orgao id="207309" dbId="41697">
+            <nomeOrgao>Secretaria (ABSEC)</nomeOrgao>
         </orgao>
         <segmentos-da-sociedade>
             <item idSegmento="1" idServicoSegmento="7">Cidadãos</item>
